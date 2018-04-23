@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liel.thepianist.WithPictures">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/click"
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_gravity="top"
+        android:layout_marginBottom="250dp"
+        android:id="@+id/click"/>
+
+    <FrameLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal"
+        android:paddingLeft="3dp"
+        android:layoutDirection="ltr"
+        android:layout_gravity="bottom"
+        android:paddingBottom="5dp"
+        android:paddingRight="3dp">
+
+
+        <Button
+            android:id="@+id/do1"
+            android:layout_width="47dp"
+            android:layout_height="250dp" />
+
+        <Button
+            android:id="@+id/re"
+            android:layout_width="47dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="47dp"/>
+
+
+        <Button
+            android:id="@+id/mi"
+            android:layout_width="47dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="94dp"/>
+
+        <Button
+            android:id="@+id/fa"
+            android:layout_width="47dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="141dp"/>
+
+        <Button
+            android:id="@+id/sol"
+            android:layout_width="47dp"
+            android:layout_marginLeft="188dp"
+            android:layout_height="250dp" />
+
+        <Button
+            android:id="@+id/la"
+            android:layout_width="47dp"
+            android:layout_marginLeft="235dp"
+            android:layout_height="250dp" />
+        <Button
+            android:id="@+id/si"
+            android:layout_width="47dp"
+            android:layout_marginLeft="282dp"
+            android:layout_height="250dp" />
+
+
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="23.5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/remol"
+            android:background="#000000"/>
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="70.5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/mimol"
+            android:background="#000000"/>
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="164.5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/solmol"
+            android:background="#000000"/>
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="211.5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/lamol"
+            android:background="#000000"/>
+        <Button
+            android:layout_width="37dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="258.5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/simol"
+            android:background="#000000"/>
+    </FrameLayout>
+
+</FrameLayout>

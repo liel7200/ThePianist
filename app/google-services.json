@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "491520236228",
+    "firebase_url": "https://the-pianist-c30ed.firebaseio.com",
+    "project_id": "the-pianist-c30ed",
+    "storage_bucket": "the-pianist-c30ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491520236228:android:97e615d753c42726",
+        "android_client_info": {
+          "package_name": "com.example.liel.thepianist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491520236228-cf1m6aigc2pran3utt4bpum3h5u3fi8p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liel.thepianist",
+            "certificate_hash": "a26871e1e578cb329656817c775102c9508f0e38"
+          }
+        },
+        {
+          "client_id": "491520236228-vj9cpvrg0v9nb4rac4m9ccmt3qpeai3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh6nbeqgcRzmHM7R0ofdqXjsK8JEjoDkM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491520236228-vj9cpvrg0v9nb4rac4m9ccmt3qpeai3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
